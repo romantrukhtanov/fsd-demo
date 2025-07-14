@@ -1,1 +1,1 @@
-# fsd-demo
+# FSD React demo project
