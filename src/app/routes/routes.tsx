@@ -9,11 +9,8 @@ export const routes = createBrowserRouter([
     Component: Layout,
     children: [
       {
-        index: true, element: <main>Main</main>
+        index: true, Component: HomePage,
       },
-      {
-        path: 'home', Component: HomePage,
-      }
     ],
   }
 ]);
