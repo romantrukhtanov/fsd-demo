@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router';
 
 import { Layout } from '../layout';
-import { HomePage } from '@/pages';
-import { ROUTES } from '@/shared';
+import { HomePage } from '@/pages/home';
+import { ROUTES } from '@/shared/routes';
 
 export const routes = createBrowserRouter([
   {
